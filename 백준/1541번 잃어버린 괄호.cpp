@@ -14,7 +14,7 @@ int main() {
 	int first = 0;
 
 	// 주석 추가
-	// test
+	// test123
 
 	for (int i = 0; i <= exp.size(); i++) {
 		if (exp[i] == '\0') {
