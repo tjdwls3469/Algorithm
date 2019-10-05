@@ -13,6 +13,8 @@ int main() {
 	int check = 0;
 	int first = 0;
 
+	// 주석 추가
+
 	for (int i = 0; i <= exp.size(); i++) {
 		if (exp[i] == '\0') {
 			num[j] = '\0';
