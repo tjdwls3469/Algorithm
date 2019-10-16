@@ -57,5 +57,8 @@
     <ClCompile Include="1541번 잃어버린 괄호.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="2609번 최대공약수와 최소공배수.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
