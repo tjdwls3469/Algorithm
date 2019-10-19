@@ -78,5 +78,8 @@
     <ClCompile Include="1476번 날짜계산.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="9095번 1,2,3더하기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
