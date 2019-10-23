@@ -87,5 +87,8 @@
     <ClCompile Include="1182번 부분수열의 합.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="14501번 퇴사.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
