@@ -141,5 +141,8 @@
     <ClCompile Include="11053번 가장 긴 증가하는 부분 수열.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="1912번 연속합.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
