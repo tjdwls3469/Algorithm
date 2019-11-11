@@ -153,5 +153,8 @@
     <ClCompile Include="2309번 일곱난쟁이(복습).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="1260번 DFS와BFS(복습).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
