@@ -174,5 +174,8 @@
     <ClCompile Include="9095번 1,2,3더하기(복습).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="2667번 단지번호붙이기(복습).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
