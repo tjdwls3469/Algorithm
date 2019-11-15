@@ -207,5 +207,8 @@
     <ClCompile Include="15650번 N과M(2))(복습).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="15651번 N과M(3).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
