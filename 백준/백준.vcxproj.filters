@@ -201,5 +201,8 @@
     <ClCompile Include="10971번 외판원 순회2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="15649번 N과M(1)(복습).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
