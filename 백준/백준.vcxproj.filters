@@ -198,5 +198,8 @@
     <ClCompile Include="10819번 차이를 최대로.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="10971번 외판원 순회2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
