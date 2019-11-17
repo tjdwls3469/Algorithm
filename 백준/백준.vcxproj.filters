@@ -216,5 +216,8 @@
     <ClCompile Include="1107번 리모컨.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="13913번 숨바꼭질 4.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
