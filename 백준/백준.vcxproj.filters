@@ -222,5 +222,8 @@
     <ClCompile Include="11048번 이동하기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="6064번 카잉 달력.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
