@@ -297,5 +297,8 @@
     <ClCompile Include="14503번 로봇 청소기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="2210번 숫자판 점프.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
