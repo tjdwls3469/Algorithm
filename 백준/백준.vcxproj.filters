@@ -303,5 +303,8 @@
     <ClCompile Include="10430번 나머지.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="2309번 일곱 난쟁이.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
