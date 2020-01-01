@@ -300,5 +300,8 @@
     <ClCompile Include="2210번 숫자판 점프.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="10430번 나머지.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
