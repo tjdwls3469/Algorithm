@@ -312,5 +312,8 @@
     <ClCompile Include="1463번 1로 만들기 (복습).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="2609번 최대공약수와 최소공배수(복습).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
