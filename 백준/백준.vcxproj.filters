@@ -321,5 +321,8 @@
     <ClCompile Include="11724번 연결 요소의 개수.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="11726번 2xn 타일링 (복습).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
