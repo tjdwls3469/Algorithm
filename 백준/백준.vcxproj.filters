@@ -324,5 +324,8 @@
     <ClCompile Include="11726번 2xn 타일링 (복습).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="1934번 최소공배수(복습).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
