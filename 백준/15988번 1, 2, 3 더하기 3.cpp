@@ -18,5 +18,6 @@ int main() {
 		cin >> num;
 		cout << ans[num] << '\n';
 	}
+
 	return 0;
 }
