@@ -39,13 +39,7 @@ int main() {
 			scanf("%1d", &maze[i][j]);
 		}
 	}
-	for (int i = 0; i < row; i++) {
-		for (int j = 0; j < col; j++) {
-			if (maze[i][j] != 0 && check[i][j] == false) {
-				bfs(i, j);
-			}
-		}
-	}
+	bfs(0, 0);
 	cout << maze[row - 1][col - 1];
 	return 0;
 }
