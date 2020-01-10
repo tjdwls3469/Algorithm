@@ -354,5 +354,8 @@
     <ClCompile Include="10973번 이전 순열(풀이).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="2178번 미로 탐색.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
