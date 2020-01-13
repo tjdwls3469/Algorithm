@@ -372,5 +372,8 @@
     <ClCompile Include="11052번 카드 구매하기 (복습).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="10819번 차이를 최대로(복습).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
