@@ -384,5 +384,8 @@
     <ClCompile Include="15649번 N과 M (1).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="10971번 외판원 순회 2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
