@@ -381,5 +381,8 @@
     <ClCompile Include="16194번 카드 구매하기2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="15649번 N과 M (1).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
