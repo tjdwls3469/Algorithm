@@ -343,7 +343,10 @@
     <ClCompile Include="15989 1,2,3더하기4.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="1697번 숨바꼭질(복습).cpp" />
+    <ClCompile Include="16194번 카드 구매하기2.cpp" />
+    <ClCompile Include="1697번 숨바꼭질(복습).cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="1697번 숨바꼭질.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
