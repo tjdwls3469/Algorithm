@@ -387,5 +387,8 @@
     <ClCompile Include="10971번 외판원 순회 2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="15990번 1, 2, 3 더하기 5.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
