@@ -399,5 +399,8 @@
     <ClCompile Include="13549번 숨바꼭질 3.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="10844번 쉬운 계단 수.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
