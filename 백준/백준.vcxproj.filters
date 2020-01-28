@@ -450,5 +450,8 @@
     <ClCompile Include="15656번 N과 M (7).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="1182번 부분수열의 합(복습).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
