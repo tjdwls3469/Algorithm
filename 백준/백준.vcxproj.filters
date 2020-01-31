@@ -462,5 +462,8 @@
     <ClCompile Include="14501번 퇴사(재귀).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="14002번 가장 긴 증가하는 부분 수열 4.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
