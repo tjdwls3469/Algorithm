@@ -283,6 +283,7 @@
     <ClCompile Include="1261번 알고스팟.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="12851번 숨바꼭질 2.cpp" />
     <ClCompile Include="12865번 평범한배낭.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -337,7 +338,9 @@
     <ClCompile Include="1476번 날짜계산.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="14888번 연산자 끼워넣기(재귀).cpp" />
+    <ClCompile Include="14888번 연산자 끼워넣기(재귀).cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="14888번 연산자 끼워넣기.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
