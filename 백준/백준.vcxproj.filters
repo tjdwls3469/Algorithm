@@ -471,5 +471,8 @@
     <ClCompile Include="12851번 숨바꼭질 2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="11723번 집합.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
