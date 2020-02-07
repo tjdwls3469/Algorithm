@@ -486,5 +486,8 @@
     <ClCompile Include="13398번 연속합 2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="6064번 카잉 달력(복습).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
