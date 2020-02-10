@@ -5,9 +5,9 @@ int main() {
 	int num;
 	cin >> num;
 	int len = 1;
+	int ten = 1;
 	int division = 1;
 	int result = 0;
-	int ten = 1;
 	while (true) {
 		if (num / division < 10) {
 			break;
