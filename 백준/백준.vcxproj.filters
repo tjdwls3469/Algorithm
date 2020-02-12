@@ -495,5 +495,8 @@
     <ClCompile Include="1748번 수 이어 쓰기 1(복습).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="11048번 이동하기(복습).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
