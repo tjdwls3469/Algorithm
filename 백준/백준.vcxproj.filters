@@ -504,5 +504,8 @@
     <ClCompile Include="15558번 점프 게임.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="1890번 점프(복습).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
