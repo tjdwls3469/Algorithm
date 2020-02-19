@@ -513,5 +513,8 @@
     <ClCompile Include="14499번 주사위 굴리기(복습).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="9095번 1, 2, 3 더하기%28복습%29.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
