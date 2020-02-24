@@ -528,5 +528,8 @@
     <ClCompile Include="5014번 스타트링크.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="2293번 동전 1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
