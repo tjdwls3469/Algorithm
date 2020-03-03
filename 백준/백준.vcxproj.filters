@@ -552,5 +552,8 @@
     <ClCompile Include="11058번 크리보드(복습).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="3190번 뱀.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
