@@ -549,5 +549,8 @@
     <ClCompile Include="14442번 벽 부수고 이동하기 2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="11058번 크리보드(복습).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
