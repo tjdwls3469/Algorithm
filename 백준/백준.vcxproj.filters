@@ -564,5 +564,8 @@
     <ClCompile Include="10026번 적록색약.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="11066번 파일 합치기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
