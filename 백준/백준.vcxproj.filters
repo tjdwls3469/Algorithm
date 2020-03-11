@@ -187,5 +187,6 @@
     <ClCompile Include="9613번 GCD합.cpp" />
     <ClCompile Include="백준.cpp" />
     <ClCompile Include="2234번 성곽.cpp" />
+    <ClCompile Include="3197번 백조의 호수.cpp" />
   </ItemGroup>
 </Project>
