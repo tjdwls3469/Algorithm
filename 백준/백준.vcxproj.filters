@@ -190,5 +190,6 @@
     <ClCompile Include="3197번 백조의 호수.cpp" />
     <ClCompile Include="5557번 1학년(복습).cpp" />
     <ClCompile Include="3568번 iSharp.cpp" />
+    <ClCompile Include="13458번 시험 감독.cpp" />
   </ItemGroup>
 </Project>
