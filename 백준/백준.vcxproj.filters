@@ -192,5 +192,6 @@
     <ClCompile Include="3568번 iSharp.cpp" />
     <ClCompile Include="13458번 시험 감독.cpp" />
     <ClCompile Include="14500번 테트로미노(복습).cpp" />
+    <ClCompile Include="2290번 LCD Test.cpp" />
   </ItemGroup>
 </Project>
