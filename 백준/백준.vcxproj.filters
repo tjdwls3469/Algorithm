@@ -199,5 +199,6 @@
     <ClCompile Include="퀵 정렬.cpp" />
     <ClCompile Include="큐.cpp" />
     <ClCompile Include="다음순열.cpp" />
+    <ClCompile Include="이전순열.cpp" />
   </ItemGroup>
 </Project>
