@@ -202,5 +202,6 @@
     <ClCompile Include="이전순열.cpp" />
     <ClCompile Include="10819번 차이를최대로.cpp" />
     <ClCompile Include="2178번 미로 탐색(복습).cpp" />
+    <ClCompile Include="16194번 카드 구매하기 2.cpp" />
   </ItemGroup>
 </Project>
