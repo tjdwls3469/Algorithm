@@ -198,5 +198,6 @@
     <ClCompile Include="1644번 소수의 연속합.cpp" />
     <ClCompile Include="퀵 정렬.cpp" />
     <ClCompile Include="큐.cpp" />
+    <ClCompile Include="다음순열.cpp" />
   </ItemGroup>
 </Project>
