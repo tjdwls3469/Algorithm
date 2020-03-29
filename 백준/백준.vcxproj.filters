@@ -200,5 +200,6 @@
     <ClCompile Include="큐.cpp" />
     <ClCompile Include="다음순열.cpp" />
     <ClCompile Include="이전순열.cpp" />
+    <ClCompile Include="10819번 차이를최대로.cpp" />
   </ItemGroup>
 </Project>
