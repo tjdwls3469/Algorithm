@@ -204,5 +204,6 @@
     <ClCompile Include="2178번 미로 탐색(복습).cpp" />
     <ClCompile Include="16194번 카드 구매하기 2.cpp" />
     <ClCompile Include="15650번 N과 M (2)(복습).cpp" />
+    <ClCompile Include="6603번 로또 (복습).cpp" />
   </ItemGroup>
 </Project>
