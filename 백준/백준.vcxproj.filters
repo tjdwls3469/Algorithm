@@ -206,5 +206,8 @@
     <ClCompile Include="15650번 N과 M (2)(복습).cpp" />
     <ClCompile Include="6603번 로또 (복습).cpp" />
     <ClCompile Include="11057번 오르막 수(복습).cpp" />
+    <ClCompile Include="알약 test.cpp" />
+    <ClCompile Include="r1.cpp" />
+    <ClCompile Include="r2.cpp" />
   </ItemGroup>
 </Project>
