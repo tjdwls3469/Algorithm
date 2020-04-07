@@ -209,5 +209,6 @@
     <ClCompile Include="알약 test.cpp" />
     <ClCompile Include="r1.cpp" />
     <ClCompile Include="r2.cpp" />
+    <ClCompile Include="14226번 이모티콘.cpp" />
   </ItemGroup>
 </Project>
