@@ -214,5 +214,6 @@
     <ClCompile Include="2206번 벽 부수고 이동하기.cpp" />
     <ClCompile Include="14889번 스타트와 링크(복습).cpp" />
     <ClCompile Include="14889번 스타트와 링크 (비트마스크).cpp" />
+    <ClCompile Include="1182번 부분수열의 합 (복습).cpp" />
   </ItemGroup>
 </Project>
