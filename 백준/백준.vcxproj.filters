@@ -212,5 +212,6 @@
     <ClCompile Include="14226번 이모티콘.cpp" />
     <ClCompile Include="1261번 알고스팟(복습).cpp" />
     <ClCompile Include="2206번 벽 부수고 이동하기.cpp" />
+    <ClCompile Include="14889번 스타트와 링크(복습).cpp" />
   </ItemGroup>
 </Project>
