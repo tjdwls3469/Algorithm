@@ -216,5 +216,6 @@
     <ClCompile Include="14889번 스타트와 링크 (비트마스크).cpp" />
     <ClCompile Include="1182번 부분수열의 합 (복습).cpp" />
     <ClCompile Include="1182번 부분수열의 합 (비트마스크).cpp" />
+    <ClCompile Include="13460번 구슬 탈출 2.cpp" />
   </ItemGroup>
 </Project>
