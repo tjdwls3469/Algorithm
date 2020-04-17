@@ -220,5 +220,6 @@
     <ClCompile Include="1072번 게임.cpp" />
     <ClCompile Include="12851번 숨바꼭질 2(복습).cpp" />
     <ClCompile Include="15558번 점프 게임(복습).cpp" />
+    <ClCompile Include="2267번 단지번호붙이기(스터디).cpp" />
   </ItemGroup>
 </Project>
