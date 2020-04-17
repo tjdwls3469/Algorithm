@@ -218,5 +218,6 @@
     <ClCompile Include="1182번 부분수열의 합 (비트마스크).cpp" />
     <ClCompile Include="13460번 구슬 탈출 2.cpp" />
     <ClCompile Include="1072번 게임.cpp" />
+    <ClCompile Include="12851번 숨바꼭질 2(복습).cpp" />
   </ItemGroup>
 </Project>
