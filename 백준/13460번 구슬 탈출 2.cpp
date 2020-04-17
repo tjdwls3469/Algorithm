@@ -6,7 +6,6 @@
 using namespace std;
 
 bool check[10][10][10][10];
-bool checkAns[2];
 int dx[] = { 0, -1, 0, 1 };
 int dy[] = { -1, 0, 1, 0 };
 struct point {
@@ -16,7 +15,8 @@ struct point {
 int main() {
 	int row;
 	int col;
-	int ans = 0;
+	int ans = -1;
+	int cnt = 0;
 	int rx, ry, bx, by;
 	cin >> row >> col;
 	vector<string> map(row);
@@ -42,54 +42,44 @@ int main() {
 	check[rx][ry][bx][by] = true;
 	q.push({ rx,ry,bx,by });
 	while (!q.empty()) {
+		if (cnt == 11) {
+			ans = -1;
+			break;
+		}
 		int frx = q.front().rx;
 		int fry = q.front().ry;
 		int fbx = q.front().bx;
 		int fby = q.front().by;
 		q.pop();
+
+		if (map[frx][fry] == 'O' && map[fbx][fby] != 'O') {
+			ans = cnt;
+			break;
+		}
+
 		for (int i = 0; i < 4; i++) {
 			int nrx = frx;
 			int nry = fry;
 			int nbx = fbx;
 			int nby = fby;
+
 			while (true) {
+				if (map[nrx][nry] == 'O' || map[nrx][nry] == '#') {
+					break;
+				}
 				nrx += dx[i];
 				nry += dy[i];
-				if (nrx >= 1 && nrx < row - 1 && nry >= 1 && nry < col - 1) {
-					if (check[nrx][nry][nbx][nby] == false) {
-						if (map[nrx][nry] == 'O') {
-							break;
-						}
-						if (map[nrx][nry] != '#') {
-							check[nrx][nry][nbx][nby] == true;
-							continue;
-						}
-					}
-				}
-				nbx -= dx[i];
-				nby -= dy[i];
 			}
 			while (true) {
+				if (map[nbx][nby] == 'O' || map[nbx][nby] == '#') {
+					break;
+				}
 				nbx += dx[i];
 				nby += dy[i];
-				if (nbx >= 1 && nbx < row - 1 && nby >= 1 && nby < col - 1) {
-					if (check[nrx][nry][nbx][nby] == false) {
-						if (map[nbx][nby] == 'O') {
-							break;
-						}
-						if (map[nbx][nby] != '#') {
-							check[nrx][nry][nbx][nby] == true;
-							continue;
-						}
-					}
-				}
-				nbx -= dx[i];
-				nby -= dy[i];
 			}
 			if (nrx == nbx && nry == nby) {
-				if (map[nrx][nry] == 'O') {
-					cout << -1;
-					return 0;
+				if (map[nbx][nby] == 'O') {
+					continue;
 				}
 				if (abs(frx - nrx) + abs(fry - nry) > abs(fbx - nbx) + abs(fby - nby)) {
 					nrx -= dx[i];
@@ -103,7 +93,11 @@ int main() {
 			if (check[nrx][nry][nbx][nby] == false) {
 				check[nrx][nry][nbx][nby] = true;
 				q.push({ nrx,nry,nbx,nby });
+				cnt++;
 			}
 		}
+
 	}
+	cout << ans;
+	return 0;
 }
