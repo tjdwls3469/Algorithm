@@ -224,5 +224,6 @@
     <ClCompile Include="1260번 DFS와 BFS(스터디).cpp" />
     <ClCompile Include="4963번 섬의 개수(스터디).cpp" />
     <ClCompile Include="2667번 단지번호붙이기 (스터디).cpp" />
+    <ClCompile Include="7564번 나이트의 이동.cpp" />
   </ItemGroup>
 </Project>
