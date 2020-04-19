@@ -1,19 +1,28 @@
 #include <iostream>
-#include <vector>
-#include <algorithm>
+#include <cstring>
 using namespace std;
 
-void dfs(int start, vector<int> &student, vector<bool> &check, vector<int> &node, vector<bool> &solo) {
-	if (solo[start] == true) {
-		node.push_back(0);
-		return;
-	}
+const int CNT = 100001;
+int student[CNT];
+bool check[CNT];
+bool real[CNT];
+int member;
+
+void dfs(int start) {
 	check[start] = true;
-	node.push_back(start);
 	int next = student[start];
 	if (check[next] == false) {
-		dfs(next, student, check, node, solo);
+		dfs(next);
 	}
+	else {
+		if (real[next] == false) {
+			for (int i = next; i != start; i = student[i]) {
+				member++;
+			}
+			member++;
+		}
+	}
+	real[start] = true;
 }
 
 int main() {
@@ -25,22 +34,18 @@ int main() {
 	for (int i = 0; i < tc; i++) {
 		int cnt;
 		cin >> cnt;
-		vector<int> student(cnt + 1);
-		vector<int> ans;
-		vector<bool> solo(cnt + 1);
+		member = 0;
 		for (int j = 1; j <= cnt; j++) {
 			cin >> student[j];
 		}
 		for (int j = 1; j <= cnt; j++) {
-			vector<bool> check(cnt + 1);
-			vector<int> node;
-			dfs(j, student, check, node, solo);
-			if (node.front() != student[node.back()]) {
-				ans.push_back(j);
-				solo[j] = true;
+			if (check[j] == false) {
+				dfs(j);
 			}
 		}
-		cout << ans.size() << '\n';
+		cout << cnt - member << '\n';
+		memset(check, false, sizeof(check));
+		memset(real, false, sizeof(real));
 	}
 	return 0;
 }
