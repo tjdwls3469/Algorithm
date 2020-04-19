@@ -33,10 +33,22 @@ int main() {
 			cin >> map[i][j];
 		}
 	}
+
+	//cout << '\n' << '\n';
+
 	queue<pair<int, int>> q;
 	map[x][y] = 2;
 	q.push(make_pair(x, y));
 	ans++;
+
+	/*for (int i = 0; i < row; i++) {
+		for (int j = 0; j < col; j++) {
+			cout << map[i][j] << ' ';
+		}
+		cout << '\n';
+	}
+	cout << '\n';*/
+
 	while (!q.empty()) {
 		int fx = q.front().first;
 		int fy = q.front().second;
@@ -60,6 +72,16 @@ int main() {
 			}
 			if (map[fx][fy] == 1) {
 				cout << ans;
+
+				/*cout << '\n' << '\n';
+				for (int i = 0; i < row; i++) {
+					for (int j = 0; j < col; j++) {
+						cout << map[i][j] << ' ';
+					}
+					cout << '\n';
+				}
+				cout << "???? ©ö©¡?? : " << dir << '\n';*/
+
 				return 0;
 			}
 			else {
@@ -94,9 +116,26 @@ int main() {
 				map[nx][ny] = 2;
 				q.push(make_pair(nx, ny));
 				ans++;
+
+				/*for (int i = 0; i < row; i++) {
+					for (int j = 0; j < col; j++) {
+						cout << map[i][j] << ' ';
+					}
+					cout << '\n';
+				}
+				cout << '\n';*/
+
 				break;
 			}
 		}
 	}
+
+	/*for (int i = 0; i < row; i++) {
+		for (int j = 0; j < col; j++) {
+			cout << map[i][j] << ' ';
+		}
+		cout << '\n';
+	}*/
+
 	return 0;
 }
