@@ -228,5 +228,6 @@
     <ClCompile Include="9466번 텀 프로젝트.cpp" />
     <ClCompile Include="15468번 퇴사 2.cpp" />
     <ClCompile Include="14503번 로봇 청소기 (복습).cpp" />
+    <ClCompile Include="14500번 테트로미노 (복습).cpp" />
   </ItemGroup>
 </Project>
