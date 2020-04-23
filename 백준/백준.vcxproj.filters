@@ -231,5 +231,6 @@
     <ClCompile Include="14500번 테트로미노 (복습).cpp" />
     <ClCompile Include="11812번 K진 트리.cpp" />
     <ClCompile Include="11812번 K진 트리 (2차 시도).cpp" />
+    <ClCompile Include="2533번 사회망 서비스(SNS).cpp" />
   </ItemGroup>
 </Project>
