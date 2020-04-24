@@ -235,5 +235,6 @@
     <ClCompile Include="14888번 연산자 끼워넣기(복습).cpp" />
     <ClCompile Include="1707번 이분 그래프.cpp" />
     <ClCompile Include="3568번 iSharp(복습).cpp" />
+    <ClCompile Include="1946번 심입사원.cpp" />
   </ItemGroup>
 </Project>
