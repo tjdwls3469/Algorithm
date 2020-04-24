@@ -233,5 +233,6 @@
     <ClCompile Include="11812번 K진 트리 (2차 시도).cpp" />
     <ClCompile Include="2533번 사회망 서비스(SNS).cpp" />
     <ClCompile Include="14888번 연산자 끼워넣기(복습).cpp" />
+    <ClCompile Include="1707번 이분 그래프.cpp" />
   </ItemGroup>
 </Project>
