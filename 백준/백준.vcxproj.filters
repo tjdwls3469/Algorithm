@@ -238,5 +238,6 @@
     <ClCompile Include="1946번 심입사원.cpp" />
     <ClCompile Include="1946번 신입 사원.cpp" />
     <ClCompile Include="2146번 다리 만들기.cpp" />
+    <ClCompile Include="6593번 상범 빌딩.cpp" />
   </ItemGroup>
 </Project>
