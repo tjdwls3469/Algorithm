@@ -240,5 +240,6 @@
     <ClCompile Include="2146번 다리 만들기.cpp" />
     <ClCompile Include="6593번 상범 빌딩.cpp" />
     <ClCompile Include="2573번 빙산.cpp" />
+    <ClCompile Include="2352번 반도체 설계.cpp" />
   </ItemGroup>
 </Project>
