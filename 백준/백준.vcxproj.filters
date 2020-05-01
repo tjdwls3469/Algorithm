@@ -242,5 +242,6 @@
     <ClCompile Include="2573번 빙산.cpp" />
     <ClCompile Include="2352번 반도체 설계.cpp" />
     <ClCompile Include="2206번 벽 부수고 이동하기(스터디).cpp" />
+    <ClCompile Include="11053번 가장 긴 증가하는 부분 수열 (복습).cpp" />
   </ItemGroup>
 </Project>
