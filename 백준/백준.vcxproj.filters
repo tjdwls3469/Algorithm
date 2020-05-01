@@ -248,5 +248,6 @@
     <ClCompile Include="11722번 가장 긴 감소하는 부분 수열.cpp" />
     <ClCompile Include="11054번 가장 긴 바이토닉 부분 수열.cpp" />
     <ClCompile Include="2352번 반도체 설계(복습).cpp" />
+    <ClCompile Include="11048번 이동하기(스터디).cpp" />
   </ItemGroup>
 </Project>
