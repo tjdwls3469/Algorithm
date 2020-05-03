@@ -251,5 +251,6 @@
     <ClCompile Include="11048번 이동하기(스터디).cpp" />
     <ClCompile Include="9084번 동전.cpp" />
     <ClCompile Include="2293번 동전 1(복습).cpp" />
+    <ClCompile Include="14502번 연구소.cpp" />
   </ItemGroup>
 </Project>
