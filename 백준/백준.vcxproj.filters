@@ -250,5 +250,6 @@
     <ClCompile Include="2352번 반도체 설계(복습).cpp" />
     <ClCompile Include="11048번 이동하기(스터디).cpp" />
     <ClCompile Include="9084번 동전.cpp" />
+    <ClCompile Include="2293번 동전 1(복습).cpp" />
   </ItemGroup>
 </Project>
