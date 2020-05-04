@@ -254,5 +254,6 @@
     <ClCompile Include="14502번 연구소.cpp" />
     <ClCompile Include="9251번 LCS.cpp" />
     <ClCompile Include="9252번 LCS 2.cpp" />
+    <ClCompile Include="1958번 LCS 3.cpp" />
   </ItemGroup>
 </Project>
