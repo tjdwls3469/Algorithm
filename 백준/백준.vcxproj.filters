@@ -255,5 +255,6 @@
     <ClCompile Include="9251번 LCS.cpp" />
     <ClCompile Include="9252번 LCS 2.cpp" />
     <ClCompile Include="1958번 LCS 3.cpp" />
+    <ClCompile Include="6064번 카잉 달력 (복습).cpp" />
   </ItemGroup>
 </Project>
