@@ -258,5 +258,6 @@
     <ClCompile Include="6064번 카잉 달력 (복습).cpp" />
     <ClCompile Include="9019번 DSLR.cpp" />
     <ClCompile Include="15686번 치킨 배달.cpp" />
+    <ClCompile Include="1912번 연속합 (복습).cpp" />
   </ItemGroup>
 </Project>
