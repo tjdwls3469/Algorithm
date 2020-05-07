@@ -1,3 +1,6 @@
+/*
+ans[N] = 금액 N을 만드는 모든 방법의 수
+*/
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -24,6 +27,10 @@ int main() {
 				ans[j] += ans[j - coin[k]];
 			}
 		}
+		/*for (int i = 0; i <= goal; i++) {
+			cout << ans[i] << ' ';
+		}
+		cout << '\n';*/
 		cout << ans[goal] << '\n';
 	}
 	return 0;
