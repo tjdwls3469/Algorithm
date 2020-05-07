@@ -1,3 +1,6 @@
+/*
+ans[N] = 금액 N을 만드는 모든 방법의 수
+*/
 #include <iostream>
 #include <algorithm>
 using namespace std;
