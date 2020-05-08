@@ -14,6 +14,13 @@ int main() {
 	cin >> str1 >> str2;
 	int row = str1.length();
 	int col = str2.length();
+	/*
+	LCS길이 구하기
+	DP표를 만들때 각 문자열 앞에 0을 추가해서 첫번째 행과 열을 모두 0으로 만든다
+	str1[i]와 str2[j]를 비교하여
+	같으면 (i,j) = (i-1,j-1)+1
+	다르면 (i,j) = max( (i-1,j), (i,j-1) )
+	*/
 	for (int i = 1; i <= row; i++) {
 		for (int j = 1; j <= col; j++) {
 			if (str1[i - 1] == str2[j - 1]) {
