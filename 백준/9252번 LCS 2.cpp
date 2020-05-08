@@ -27,6 +27,13 @@ int main() {
 	string strAns = "";
 	int x = row;
 	int y = col;
+	/*
+	LCS 구하기
+	1. 다른 숫자가 나올때까지 왼쪽으로 이동
+	2. 왼쪽에 다른 숫자가 나오면 바로 위의 숫자랑 비교
+	   같으면 위로 한칸 이동 후 1번으로 
+	   다르면 문자 저장하고 i-1, j-1로 이동 후 1번으로
+	*/
 	while (true) {
 		if (ans[x][y] == 0) {
 			break;
