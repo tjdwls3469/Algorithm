@@ -261,5 +261,6 @@
     <ClCompile Include="1912번 연속합 (복습).cpp" />
     <ClCompile Include="2293번 동전 2.cpp" />
     <ClCompile Include="15685번 드래곤 커브.cpp" />
+    <ClCompile Include="17142번 연구소 3.cpp" />
   </ItemGroup>
 </Project>
