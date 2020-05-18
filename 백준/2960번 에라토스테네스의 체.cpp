@@ -9,6 +9,7 @@ int main() {
 	cin.sync_with_stdio(0);
 	cin.tie(0);
 	cout.tie(0);
+
 	int n;
 	int k;
 	cin >> n >> k;
