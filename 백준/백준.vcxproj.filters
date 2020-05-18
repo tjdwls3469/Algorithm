@@ -264,5 +264,6 @@
     <ClCompile Include="17142번 연구소 3.cpp" />
     <ClCompile Include="17779번 게리맨더링 2.cpp" />
     <ClCompile Include="17837번 새로운 게임 2.cpp" />
+    <ClCompile Include="2960번 에라토스테네스의 체.cpp" />
   </ItemGroup>
 </Project>
