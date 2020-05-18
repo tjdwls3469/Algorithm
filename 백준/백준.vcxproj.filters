@@ -263,5 +263,6 @@
     <ClCompile Include="15685번 드래곤 커브.cpp" />
     <ClCompile Include="17142번 연구소 3.cpp" />
     <ClCompile Include="17779번 게리맨더링 2.cpp" />
+    <ClCompile Include="17837번 새로운 게임 2.cpp" />
   </ItemGroup>
 </Project>
