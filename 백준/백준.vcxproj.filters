@@ -266,5 +266,6 @@
     <ClCompile Include="17837번 새로운 게임 2.cpp" />
     <ClCompile Include="2960번 에라토스테네스의 체.cpp" />
     <ClCompile Include="1920번 수 찾기.cpp" />
+    <ClCompile Include="2805번 나무 자르기.cpp" />
   </ItemGroup>
 </Project>
