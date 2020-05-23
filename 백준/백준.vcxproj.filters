@@ -273,5 +273,6 @@
     <ClCompile Include="1654번 랜선 자르기.cpp" />
     <ClCompile Include="3980번 선발 명단.cpp" />
     <ClCompile Include="2096번 내려가기.cpp" />
+    <ClCompile Include="2252번 줄 세우기.cpp" />
   </ItemGroup>
 </Project>
