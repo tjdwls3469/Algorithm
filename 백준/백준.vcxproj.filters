@@ -271,5 +271,6 @@
     <ClCompile Include="19369번 중량제한.cpp" />
     <ClCompile Include="10815번 숫자 카드.cpp" />
     <ClCompile Include="1654번 랜선 자르기.cpp" />
+    <ClCompile Include="3980번 선발 명단.cpp" />
   </ItemGroup>
 </Project>
