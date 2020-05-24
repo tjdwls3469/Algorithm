@@ -274,5 +274,6 @@
     <ClCompile Include="3980번 선발 명단.cpp" />
     <ClCompile Include="2096번 내려가기.cpp" />
     <ClCompile Include="2252번 줄 세우기.cpp" />
+    <ClCompile Include="1520번 내리막 길.cpp" />
   </ItemGroup>
 </Project>
