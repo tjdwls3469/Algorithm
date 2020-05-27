@@ -276,5 +276,6 @@
     <ClCompile Include="2252번 줄 세우기.cpp" />
     <ClCompile Include="1520번 내리막 길.cpp" />
     <ClCompile Include="7453번 합이 0인 네정수.cpp" />
+    <ClCompile Include="2661번 좋은수열.cpp" />
   </ItemGroup>
 </Project>
