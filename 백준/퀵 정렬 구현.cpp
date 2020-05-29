@@ -4,35 +4,68 @@ using namespace std;
 int n = 7;
 int ary[7] = { 7,7,7,4,7,6,5 };
 
-void sort(int start, int end) {
-	if (start >= end) {
+//void sort(int start, int end) {
+//	if (start >= end) {
+//		return;
+//	}
+//	int p = start;
+//	int left = start + 1;
+//	int right = end;
+//	int temp;
+//	while (true) {
+//		while (left <= end && ary[left] <= ary[p]) {
+//			left++;
+//		}
+//		while (right > begin && ary[right] >= ary[p]) {
+//			right--;
+//		}
+//		if (left > right) {
+//			break;
+//		}
+//		temp = ary[left];
+//		ary[left] = ary[right];
+//		ary[right] = temp;
+//	}
+//	temp = ary[p];
+//	ary[p] = ary[right];
+//	ary[right] = temp;
+//	sort(start, right - 1);
+//	sort(right + 1, end);
+//}
+
+// 오름차순
+void sort(int begin, int end) {
+	if (begin >= end) {
 		return;
 	}
-	int p = start;
-	int left = start + 1;
+	int pivot = begin;
+	int left = begin + 1;
 	int right = end;
 	int temp;
-	while (true) {
-		while (ary[left] <= ary[p]) {
+	while (left <= right) {
+		while (left <= end && ary[left] <= ary[pivot]) {
 			left++;
 		}
-		while (ary[right] >= ary[p]) {
+		while (right > begin && ary[right] >= ary[pivot]) {
 			right--;
 		}
 		if (left > right) {
+			temp = ary[right];
+			ary[right] = ary[pivot];
+			ary[pivot] = temp;
 			break;
 		}
-		temp = ary[left];
-		ary[left] = ary[right];
-		ary[right] = temp;
+		else{
+			temp = ary[left];
+			ary[left] = ary[right];
+			ary[right] = temp;
+		}
 	}
-	temp = ary[p];
-	ary[p] = ary[right];
-	ary[right] = temp;
-	sort(start, right - 1);
+	sort(begin, right - 1);
 	sort(right + 1, end);
 }
 
+// 내림차순
 //void sort(int begin, int end) {
 //	if (begin >= end) {
 //		return;
@@ -42,10 +75,10 @@ void sort(int start, int end) {
 //	int right = end;
 //	int temp;
 //	while (left <= right) {
-//		while (ary[left] <= ary[pivot]) {
+//		while (left <= end && ary[left] >= ary[pivot]) {
 //			left++;
 //		}
-//		while (ary[right] >= ary[pivot]) {
+//		while (right > begin && ary[right] <= ary[pivot]) {
 //			right--;
 //		}
 //		if (left > right) {
@@ -54,7 +87,7 @@ void sort(int start, int end) {
 //			ary[pivot] = temp;
 //			break;
 //		}
-//		else{
+//		else {
 //			temp = ary[left];
 //			ary[left] = ary[right];
 //			ary[right] = temp;
