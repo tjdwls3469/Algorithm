@@ -279,5 +279,6 @@
     <ClCompile Include="2661번 좋은수열.cpp" />
     <ClCompile Include="퀵 정렬 구현.cpp" />
     <ClCompile Include="1424번 새 앨범.cpp" />
+    <ClCompile Include="1107번리모컨.cpp" />
   </ItemGroup>
 </Project>
