@@ -282,5 +282,6 @@
     <ClCompile Include="1107번리모컨.cpp" />
     <ClCompile Include="6064번카잉 달력.cpp" />
     <ClCompile Include="13913번숨바꼭질 4.cpp" />
+    <ClCompile Include="1620번 나는야 포켓몬 마스터 이다솜.cpp" />
   </ItemGroup>
 </Project>
