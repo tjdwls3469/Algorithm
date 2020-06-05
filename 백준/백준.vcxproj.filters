@@ -281,5 +281,6 @@
     <ClCompile Include="1424번 새 앨범.cpp" />
     <ClCompile Include="1107번리모컨.cpp" />
     <ClCompile Include="6064번카잉 달력.cpp" />
+    <ClCompile Include="13913번숨바꼭질 4.cpp" />
   </ItemGroup>
 </Project>
