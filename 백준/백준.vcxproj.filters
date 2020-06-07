@@ -285,5 +285,6 @@
     <ClCompile Include="1620번 나는야 포켓몬 마스터 이다솜.cpp" />
     <ClCompile Include="9019번DSLR.cpp" />
     <ClCompile Include="2468번 안전 영역.cpp" />
+    <ClCompile Include="11048번이동하기.cpp" />
   </ItemGroup>
 </Project>
