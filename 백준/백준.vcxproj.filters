@@ -287,5 +287,6 @@
     <ClCompile Include="2468번 안전 영역.cpp" />
     <ClCompile Include="11048번이동하기.cpp" />
     <ClCompile Include="3649번 로봇 프로젝트.cpp" />
+    <ClCompile Include="1890번점프.cpp" />
   </ItemGroup>
 </Project>
