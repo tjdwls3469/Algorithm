@@ -289,5 +289,6 @@
     <ClCompile Include="3649번 로봇 프로젝트.cpp" />
     <ClCompile Include="1890번점프.cpp" />
     <ClCompile Include="1726번 로봇.cpp" />
+    <ClCompile Include="11559번 Puyo Puyo.cpp" />
   </ItemGroup>
 </Project>
