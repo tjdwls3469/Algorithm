@@ -294,5 +294,6 @@
     <ClCompile Include="전화번호 목록.cpp" />
     <ClCompile Include="기능개발.cpp" />
     <ClCompile Include="탑.cpp" />
+    <ClCompile Include="프린터%27.cpp" />
   </ItemGroup>
 </Project>
