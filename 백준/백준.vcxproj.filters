@@ -293,5 +293,6 @@
     <ClCompile Include="완주하지 못한 선수.cpp" />
     <ClCompile Include="전화번호 목록.cpp" />
     <ClCompile Include="기능개발.cpp" />
+    <ClCompile Include="탑.cpp" />
   </ItemGroup>
 </Project>
