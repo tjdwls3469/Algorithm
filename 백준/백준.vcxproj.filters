@@ -296,5 +296,6 @@
     <ClCompile Include="탑.cpp" />
     <ClCompile Include="프린터%27.cpp" />
     <ClCompile Include="쇠막대기.cpp" />
+    <ClCompile Include="주식가격.cpp" />
   </ItemGroup>
 </Project>
