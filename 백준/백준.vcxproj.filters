@@ -291,5 +291,6 @@
     <ClCompile Include="1726번 로봇.cpp" />
     <ClCompile Include="11559번 Puyo Puyo.cpp" />
     <ClCompile Include="완주하지 못한 선수.cpp" />
+    <ClCompile Include="전화번호 목록.cpp" />
   </ItemGroup>
 </Project>
