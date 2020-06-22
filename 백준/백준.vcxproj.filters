@@ -298,5 +298,6 @@
     <ClCompile Include="쇠막대기.cpp" />
     <ClCompile Include="10835번 카드게임.cpp" />
     <ClCompile Include="위장.cpp" />
+    <ClCompile Include="주식가격.cpp" />
   </ItemGroup>
 </Project>
