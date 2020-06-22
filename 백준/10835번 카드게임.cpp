@@ -1,50 +1,41 @@
 #include <iostream>
 #include <algorithm>
+#include <cstring>
+
 using namespace std;
 
 int cnt;
-int a[2001];
-int b[2001];
-int ans[2001][2001];
-int result;
+int leftCard[2000];
+int rightCard[2000];
+int ans[2000][2000];
 
-void solve(int l, int r) {
-	if (l == 0 || r == 0) {
-		return;
+int solve(int l, int r) {
+	if (l >= cnt || r >= cnt) {
+		return 0;
 	}
-	ans[l - 1][r] = max(ans[l - 1][r], ans[l][r]);
-	solve(l - 1, r);
-	ans[l - 1][r - 1] = max(ans[l - 1][r - 1], ans[l][r]);
-	solve(l - 1, r - 1);
-	if (b[r] < a[l]) {
-		ans[l][r - 1] = max(ans[l][r - 1], ans[l][r] + b[r]);
-		solve(l, r - 1);
+	int &result = ans[l][r];
+	if (result != -1) {
+		return result;
 	}
+	result = 0;
+	if (leftCard[l] > rightCard[r]) {
+		result += rightCard[r] + solve(l, r + 1);
+	}
+	else {
+		result += max(solve(l + 1, r), solve(l + 1, r + 1));
+	}
+	return result;
 }
 
 int main() {
-	cin.sync_with_stdio(0);
-	cin.tie(0);
-	cout.tie(0);
-
 	cin >> cnt;
-	for (int i = 1; i <= cnt; i++) {
-		cin >> a[i];
+	for (int i = 0; i < cnt; i++) {
+		cin >> leftCard[i];
 	}
-	for (int i = 1; i <= cnt; i++) {
-		cin >> b[i];
+	for (int i = 0; i < cnt; i++) {
+		cin >> rightCard[i];
 	}
-	solve(cnt, cnt);
-	for (int i = 0; i <= cnt; i++) {
-		if (result == 0 || ans[i][0] > result) {
-			result = ans[i][0];
-		}
-	}
-	for (int i = 0; i <= cnt; i++) {
-		if (result == 0 || ans[0][i] > result) {
-			result = ans[0][i];
-		}
-	}
-	cout << result;
+	memset(ans, -1, sizeof(ans));
+	cout << solve(0, 0);
 	return 0;
 }
