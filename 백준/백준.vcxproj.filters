@@ -297,5 +297,6 @@
     <ClCompile Include="프린터%27.cpp" />
     <ClCompile Include="쇠막대기.cpp" />
     <ClCompile Include="10835번 카드게임.cpp" />
+    <ClCompile Include="위장.cpp" />
   </ItemGroup>
 </Project>
