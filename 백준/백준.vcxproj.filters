@@ -303,5 +303,6 @@
     <ClCompile Include="1477번 휴게소 세우기.cpp" />
     <ClCompile Include="더 맵게.cpp" />
     <ClCompile Include="라면공장.cpp" />
+    <ClCompile Include="디스크 컨트롤러.cpp" />
   </ItemGroup>
 </Project>
