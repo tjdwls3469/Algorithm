@@ -301,5 +301,6 @@
     <ClCompile Include="주식가격.cpp" />
     <ClCompile Include="베스트앨범.cpp" />
     <ClCompile Include="1477번 휴게소 세우기.cpp" />
+    <ClCompile Include="더 맵게.cpp" />
   </ItemGroup>
 </Project>
