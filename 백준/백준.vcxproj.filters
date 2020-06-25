@@ -307,5 +307,6 @@
     <ClCompile Include="이중우선순위큐.cpp" />
     <ClCompile Include="K번째수.cpp" />
     <ClCompile Include="1038번 감소하는 수.cpp" />
+    <ClCompile Include="가장 큰 수.cpp" />
   </ItemGroup>
 </Project>
