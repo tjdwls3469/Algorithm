@@ -11,19 +11,6 @@ int dx[] = { 0, -1, -1, -1, 0, 1, 1, 1 };
 int dy[] = { -1, -1, 0, 1, 1, 1, 0, -1 };
 int ans = -1;
 
-void dfs(int x, int y, int dist) {
-	check[x][y] = true;
-	for (int i = 0; i < 8; i++) {
-		int nx = x + dx[i];
-		int ny = y + dy[i];
-		if (nx >= 0 && nx < row && ny >= 0 && ny < col) {
-			if (check[nx][ny] == false) {
-				q.push({ {nx,ny}, nd });
-			}
-		}
-	}
-}
-
 void bfs(int x, int y) {
 	queue<pair<pair<int, int>, int>> q;
 	check[x][y] = true;

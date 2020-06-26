@@ -309,5 +309,6 @@
     <ClCompile Include="1038번 감소하는 수.cpp" />
     <ClCompile Include="가장 큰 수.cpp" />
     <ClCompile Include="17086번 아기 상어 2.cpp" />
+    <ClCompile Include="16236번 아기 상어.cpp" />
   </ItemGroup>
 </Project>
