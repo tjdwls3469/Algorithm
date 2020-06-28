@@ -312,5 +312,6 @@
     <ClCompile Include="16236번 아기 상어.cpp" />
     <ClCompile Include="정수 삼각형.cpp" />
     <ClCompile Include="모의고사.cpp" />
+    <ClCompile Include="1932번 정수 삼각형.cpp" />
   </ItemGroup>
 </Project>
