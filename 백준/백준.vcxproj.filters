@@ -316,5 +316,6 @@
     <ClCompile Include="19236번 청소년 상어.cpp" />
     <ClCompile Include="19236번 청소년 상어 (재도전).cpp" />
     <ClCompile Include="14503번 로봇청소기.cpp" />
+    <ClCompile Include="1012번 유기농 배추.cpp" />
   </ItemGroup>
 </Project>
