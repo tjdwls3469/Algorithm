@@ -318,5 +318,6 @@
     <ClCompile Include="14503번 로봇청소기.cpp" />
     <ClCompile Include="1012번 유기농 배추.cpp" />
     <ClCompile Include="13023번 ABCDE.cpp" />
+    <ClCompile Include="1795번 정상 회담.cpp" />
   </ItemGroup>
 </Project>
