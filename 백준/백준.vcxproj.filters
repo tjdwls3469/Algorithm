@@ -323,5 +323,6 @@
     <ClCompile Include="2158번 산악자전거.cpp" />
     <ClCompile Include="4179번 불!.cpp" />
     <ClCompile Include="2158번 산악자전거(재도전).cpp" />
+    <ClCompile Include="1213번 팰린드롬 만들기.cpp" />
   </ItemGroup>
 </Project>
