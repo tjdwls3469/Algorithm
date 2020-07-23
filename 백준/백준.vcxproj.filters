@@ -326,5 +326,6 @@
     <ClCompile Include="1213번 팰린드롬 만들기.cpp" />
     <ClCompile Include="1600번 말이되고픈 원숭이.cpp" />
     <ClCompile Include="2617번 구슬 찾기.cpp" />
+    <ClCompile Include="9328번 열쇠.cpp" />
   </ItemGroup>
 </Project>
